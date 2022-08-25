@@ -11,7 +11,7 @@ import { Todo } from "../types/types";
 // Get All Todos Query
 // **************************************
 export const GET_ALL_TODOS = gql`
-  query GetAllTodos {
+  query JAMstack-Todo-App {
     todos {
       id
       content
